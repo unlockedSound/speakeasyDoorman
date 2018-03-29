@@ -1,0 +1,52 @@
+﻿a {
+    cursor: pointer;
+}
+
+body {
+    background-image: url('brick-3262993_1280.jpg');
+}
+
+.form-group {
+    /*color: #a8a8a8;*/
+    outline: none;
+}
+
+.knock {
+    background-color: #522c37;
+    outline: none;
+    color: white;
+    opacity: 1;
+    box-shadow: none;
+}
+
+
+.knock:hover {
+    color: white;
+}
+
+.knock:active{
+    color:white;
+}
+
+.form-control {
+    /*background-color: #522c37;*/
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25vh;
+}
+
+@media (max-width: 767.98px) {
+    .welcome {
+        padding-top: 10vh;
+    }
+}
+
+/*TODO: Change colors: background, buttons etc,*/
