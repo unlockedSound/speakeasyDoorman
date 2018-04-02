@@ -4,6 +4,10 @@
 
 body {
     background-image: url('brick-3262993_1280.jpg');
+    background-repeat: no-repeat;
+    /*background-color: black;*/
+    /*background-position: center;*/
+    background-size: 100vw 100vh;
 }
 
 .form-group {
@@ -49,4 +53,9 @@ body {
     }
 }
 
+/*@media (max-width: 1280px) {*/
+    /*.body*/
+/*}*/
+
 /*TODO: Change colors: background, buttons etc,*/
+/*TODO: if media >1280 px add boarders*/
