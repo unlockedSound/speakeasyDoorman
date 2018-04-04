@@ -1,0 +1,27 @@
+Knock?
+    -input password
+        if incorrect nothing happens
+    if correct boxes fade out, word welcome fades in and then all fades to black and sends to "name on the invitation"
+    TODO: further pages need some sort of inside curtain/matradee stand background image
+
+    Name on the Invitation
+    -input first and last name
+        check values against database
+        if name not present go to "A new guest?"
+
+        A New Guest?
+            -input prefered contact method and information
+            TODO: if this is fb messager have it auto ping the api and grab their unique value
+                send user to "Welcome"
+
+        if name is present go to "Welcome to the Speakeasy"
+
+            Welcome to the Speakeasy
+            -displays:
+                • party information
+                • guest list
+                • recommend a guest
+                • change contact
+                • contact information
+                • map
+                • event calendar download
